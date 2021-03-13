@@ -41,11 +41,11 @@ function openPacman() {
 }
 
 function openStance() {
-    window.open().location.href = "https://bjc705.github.io/brentcurl/testv2/build/index.html"
+    window.open().location.href = "https://bjc705.github.io/chair/"
 }
 
 function openBeatMaker() {
-    window.open().location.href = "https://bjc705.github.io/brentcurl/music-app/index.html"
+    window.open().location.href = "https://bjc705.github.io/beat-maker/"
 }
 
 function openToDo() {
