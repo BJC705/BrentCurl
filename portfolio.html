@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brent Curl - Portfolio</title>
+    <link rel="icon" type="img/png" href="images/favicon.png">
+    <link rel="stylesheet" href="fullpage.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <div id="fullpage">
+        <div class="background"></div>
+        <div class="section">
+            <!-- Main Content -->
+            <div class="portfolio-text"><img src="images/portfolio logo.png" alt="" class="portfolio-logo">
+                <div class="mobile-menu-button">
+                    <img src="images/menu button.png" class="mobile-menu-button" id="menu_button" onclick="openMenu()">
+                </div>
+                <!-- Mobile Nav -->
+                <div class="mobile-navigation" id="mobile_nav">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Me</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <!-- Desktop Nav -->
+            <div class="navigation">
+                <img src="images/name.png" class="nav-logo" alt="Brent Curl">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="skills.html">Skills</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <!-- Portfolio Slide -->
+        <div class="section">
+            <div class="project-container">
+                <div class="project-text-container">
+                    <h2 class="project-h2">Diligent Web Designs</h2>
+                    <p class="project-p">Diligent is my most recent project besides creating this website. It's by far my best project to this day. I created all of the graphics, created a background that's animated with vanilla JS, page animations were done using TweenMax,
+                        and the responsive design was created using HTML, and CSS.</p>
+                </div>
+                <img src="images/diligent.png" onclick="openDiligent()" alt="Diligent Web Designs">
+            </div>
+        </div>
+        <!-- Portfolio Slide -->
+        <div class="section">
+            <div class="project-container">
+                <img src="images/current.png" onclick="openCurrent()" alt="Current BMX">
+                <div class="project-text-container">
+                    <h2 class="project-h2">Current BMX</h2>
+                    <p class="project-p">Current BMX was a project that I created to showcase BMX videos from around the world. The simple design made it very easy to layout multiple videos in just a few lines of code.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Slide -->
+        <div class="section">
+            <div class="project-container">
+                <div class="project-text-container">
+                    <h2 class="project-h2">Ontario Street Spots</h2>
+                    <p class="project-p">Ontario Street Spots is a project that I wanted to create the day I started learning to code. Months later I gained enough experience to make that idea come to life. I created the main page slideshow using JS, the image layout on the
+                        images page was done using Flex-box, and the map was simply imported from a website named ZeeMaps.</p>
+                </div>
+                <img src="images/spot.png" onclick="openStreetSpots()" alt="Ontario Street Spots">
+            </div>
+        </div>
+        <!-- Portfolio Slide -->
+        <div class="section">
+            <div class="project-container">
+                <img src="images/flappy.png" onclick="openFlappyPug()" alt="Flappy Pug">
+                <div class="project-text-container">
+                    <h2 class="project-h2">Flappy Pug</h2>
+                    <p class="project-p">The idea of Flappy Pug was inspired by my dog Frank. I used HTML canvas and vanilla JS to draw the animations. I created multiple functions that detected if the Pug hits the bacon, or if the pug hits the ground. Along with a function
+                        the increments the score every time the pug passes the bacon.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Slide -->
+        <div class="section">
+            <div class="project-container">
+                <div class="project-text-container">
+                    <h2 class="project-h2">Pacman Animation</h2>
+                    <p class="project-p">The Pacman animation was my first time creating animations with JS and HTML Canvas. I created a custom sprite sheet that allowed me to import the different colored Pacman's onto the canvas. I created a function that randomly makes
+                        a new Pacman appear using Mathrandom.</p>
+                </div>
+                <img src="images/pacman.png" onclick="openPacman()" alt="Pac man animation">
+            </div>
+        </div>
+        <!-- Portfolio Slide -->
+        <div class="section">
+            <div class="project-container">
+                <img src="images/beat.png" onclick="openBeatMaker()" alt="Beat Maker">
+                <div class="project-text-container">
+                    <h2 class="project-h2">Beat Maker</h2>
+                    <p class="project-p">While creating Beatmaker I learned how to create animations using CSS Keyframes. I added a click event listener to each of the circles, which when clicked makes the beat play. Each circle has a different sound imported to it.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Slide -->
+        <div class="section">
+            <div class="project-container">
+                <div class="project-text-container">
+                    <h2 class="project-h2">Chair Website</h2>
+                    <p class="project-p">This was my first project where I began learning responsive designs using CSS and HTML. This design is not mine, I was given a mockup sheet and created a replica version of the website. This is one of the first projects where I started
+                        to understand how to structure a website. This was an important project for my early learning days that pushed me alot.</p>
+                </div>
+                <img src="images/stancehealth.png" onclick="openStance()" alt="Chair Website">
+            </div>
+        </div>
+        <!-- Portfolio Slide -->
+        <div class="section">
+            <div class="project-container">
+                <img src="images/weather.png" onclick="openWeather()" alt="Weather App">
+                <div class="project-text-container">
+                    <h2 class="project-h2">Weather App</h2>
+                    <p class="project-p">This project was my first time using an API and one of my first times using JavaScript in a project. I learned a lot about how API's work and how to use them. This is a project that I would like to recreate and make a more advanced
+                        version soon.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Slide -->
+        <div class="section">
+            <div class="project-container">
+                <div class="project-text-container">
+                    <h2 class="project-h2">To-do List</h2>
+                    <p class="project-p">To-do list was one of the first projects I created. It was my first project using JS.</p>
+                </div>
+                <img src="images/todo.png" onclick="openToDo()" alt="To-do App">
+            </div>
+        </div>
+        <!-- Portfolio Slide -->
+        <div class="section">
+            <div class="artwork-container">
+                <img src="images/harvester ad.png" class="harvester" alt="">
+                <div class="project-text-container">
+                    <h2 class="project-h2">Harvester BMX</h2>
+
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Slide -->
+        <div class="section">
+            <div class="artwork-container">
+                <div class="project-text-container">
+                    <h2 class="project-h2">Converse Ad</h2>
+                </div>
+                <img src="images/Converse Ad.png" class="converse" alt="">
+            </div>
+        </div>
+        <!-- Portfolio Slide -->
+        <div class="section">
+            <div class="artwork-container">
+                <img src="images/frank x bmx series.png" class="frankXbmx" alt="">
+                <div class="project-text-container">
+                    <h2 class="project-h2">Franky Boy X BMX</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./fullpage.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
