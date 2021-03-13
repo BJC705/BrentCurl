@@ -704,10 +704,12 @@ button:hover {
     width: 60%;
   }
   .main-writing {
-    padding: 1% 0;
+    padding: 
+      0;
   }
   .main-img {
-    padding: 1% 0;
+    padding: 
+      0;
   }
   .navigation {
     display: none;
