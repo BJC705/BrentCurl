@@ -167,6 +167,29 @@ a:hover {
   padding: 5%;
 }
 
+.resume-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+}
+
+.resume-p {
+  padding: 10px;
+  text-align: center;
+  font-size: 4rem;
+  border-bottom: 4px solid #989376;
+  border-top: 4px solid #989376;
+  border-left: 8px solid #989376;
+  border-right: 8px solid #989376;
+}
+
 .portfolio-main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -704,12 +727,10 @@ button:hover {
     width: 60%;
   }
   .main-writing {
-    padding: 
-      0;
+    padding: 0;
   }
   .main-img {
-    padding: 
-      0;
+    padding: 0;
   }
   .navigation {
     display: none;
