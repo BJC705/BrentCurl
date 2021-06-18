@@ -309,7 +309,8 @@ a:hover {
   height: 90vh;
 }
 
-.frankXbmx {
+.frankXbmx,
+.nothingNowhere {
   width: 65%;
 }
 
@@ -660,7 +661,8 @@ button:hover {
   .harvester {
     height: 70vh;
   }
-  .frankXbmx {
+  .frankXbmx,
+  .nothingNowhere {
     width: 85%;
   }
   .project-container img {
@@ -865,7 +867,8 @@ button:hover {
   .converse {
     height: 35vh;
   }
-  .frankXbmx {
+  .frankXbmx,
+  .nothingNowhere {
     width: 100%;
   }
   .project-container img {
