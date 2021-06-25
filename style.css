@@ -305,7 +305,8 @@ a:hover {
 .converse,
 .harvester,
 .mulletSmart,
-.cloudNine {
+.cloudNine,
+.genesisCoupe {
   height: 90vh;
 }
 
@@ -861,7 +862,8 @@ button:hover {
   }
   .harvester,
   .mulletSmart,
-  .cloudNine {
+  .cloudNine,
+  .genesisCoupe {
     height: 50vh;
   }
   .converse {
